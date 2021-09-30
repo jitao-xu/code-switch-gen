@@ -8,7 +8,7 @@ Jitao Xu and François Yvon
 
 ## Requirements
 
-You need to install [`fast_align`](https://github.com/clab/fast_align) and un [unfold tool](https://github.com/jmcrego/corpora-tools/tree/master/src).
+You need to install [`fast_align`](https://github.com/clab/fast_align) and un [unfold tool](https://github.com/jmcrego/corpora-tools/tree/master/src) ([Crego et al., 2005](https://aclanthology.org/2005.mtsummit-papers.37/)).
 
 ## Usage
 
