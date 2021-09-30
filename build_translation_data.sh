@@ -46,7 +46,7 @@ echo "Alignment finished."
 date
  
 echo "Start random replacement..."
-python align_replace_amb_multiprocess.py -s data/$langPair/train/toka.train_dev_test.${langPair}.$l1 -t data/$langPair/train/toka.train_dev_test.${langPair}.$l2 -a data/$langPair/train/new_aligns_trn_dev_tst/align_units.clean.${langPair}.gdfa.src_consec -o data/$langPair/train/toka.train_dev_test.$langPair --max_rep 3
+python align_replace_multi_label_fix.py -s data/$langPair/train/toka.train_dev_test.${langPair}.$l1 -t data/$langPair/train/toka.train_dev_test.${langPair}.$l2 -a data/$langPair/train/new_aligns_trn_dev_tst/align_units.clean.${langPair}.gdfa.src_consec -o data/$langPair/train/toka.train_dev_test.$langPair --max_rep 3
 echo "Repalcement finished."
 date
 
